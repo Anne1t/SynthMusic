@@ -1,0 +1,12 @@
+canvas{
+    margin-top: 100px;
+    border-radius: 10px;
+    animation-name: hello;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hello{
+    from{box-shadow: 5px 5px 40px white;}
+    to{box-shadow: 5px 5px 40px rgb(2, 64, 105);}
+}
